@@ -1,9 +1,9 @@
-const express = require('express');
+const express = require("express");
 //Setting app that will listen and handle requests
 const app = express();
 
-app.get('/', (req,res) => {
-  res.send({hi: 'there'});
+app.get("/", (req, res) => {
+  res.send({ hi: "there" });
 });
 
 //Setting port
