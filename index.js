@@ -8,5 +8,5 @@ app.get('/', (req, res) => {
 
 //Setting port
 //If there is not defined use the value of 5000
-const PORT = process.evn.PORT || 5000;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT);
